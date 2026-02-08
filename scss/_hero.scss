@@ -1,0 +1,8 @@
+@use 'variables' as *;
+
+.hero {
+  background: $hero-bg;
+  color: $nav-text;
+  text-align: center;
+  padding: 40px 20px;
+}

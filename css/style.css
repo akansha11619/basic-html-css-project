@@ -1,44 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
-}
-
-header {
-  background: #007bff;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-main {
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #333;
-  color: white;
-}
-
-/* Navbar */
 .navbar {
   background: #222;
   color: white;
@@ -47,32 +6,29 @@ footer {
   align-items: center;
   padding: 15px 30px;
 }
-
-.logo {
+.navbar .logo {
   font-size: 20px;
   font-weight: bold;
 }
-
-.nav-links {
+.navbar .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-
-.nav-links a {
+.navbar .nav-links a {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
-
-.nav-links a:hover {
+.navbar .nav-links a:hover {
   color: #007bff;
 }
 
-/* Hero section */
 .hero {
   background: #007bff;
   color: white;
   text-align: center;
   padding: 40px 20px;
 }
+
+/*# sourceMappingURL=style.css.map */

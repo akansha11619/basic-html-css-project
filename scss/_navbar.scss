@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+.navbar {
+  background: $nav-bg;
+  color: $nav-text;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    a {
+      color: $nav-text;
+      text-decoration: none;
+      font-size: 16px;
+
+      &:hover {
+        color: $nav-hover;
+      }
+    }
+  }
+}
